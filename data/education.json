@@ -1,0 +1,21 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Masters",
+      "school": "University of Texas Arlington, USA",
+      "institution": "University of Texas Arlington, USA",
+      "period": "",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Azure Data Engineer Associate",
+      "issuer": ""
+    }
+  ]
+}

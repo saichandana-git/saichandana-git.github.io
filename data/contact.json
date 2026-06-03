@@ -1,0 +1,14 @@
+{
+  "sectionTitle": "Let's Create Something Amazing",
+  "subtitle": "Have a project in mind? Let's bring it to life together.",
+  "email": "sgchandana29@gmail.com",
+  "location": "FL, USA",
+  "availability": "Open to opportunities",
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:sgchandana29@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

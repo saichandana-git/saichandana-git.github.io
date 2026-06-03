@@ -1,0 +1,178 @@
+{
+  "_instructions": "Add your professional projects.",
+  "sectionTitle": "Portfolio",
+  "subtitle": "Featured professional projects",
+  "projects": [
+    {
+      "title": "etl-validation-with-python-scripting",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/etl-validation-with-python-scripting",
+      "demo": "https://github.com/saichandana-git/etl-validation-with-python-scripting",
+      "links": {
+        "github": "https://github.com/saichandana-git/etl-validation-with-python-scripting",
+        "demo": "https://github.com/saichandana-git/etl-validation-with-python-scripting",
+        "live": "https://github.com/saichandana-git/etl-validation-with-python-scripting"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "greenpulse-energy-monitoring",
+      "description": "Modern web application demonstrating clean code principles",
+      "longDescription": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "TypeScript"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/greenpulse-energy-monitoring",
+      "demo": "https://github.com/saichandana-git/greenpulse-energy-monitoring",
+      "links": {
+        "github": "https://github.com/saichandana-git/greenpulse-energy-monitoring",
+        "demo": "https://github.com/saichandana-git/greenpulse-energy-monitoring",
+        "live": "https://github.com/saichandana-git/greenpulse-energy-monitoring"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "youtube-trending-etl-aws",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HCL"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/youtube-trending-etl-aws",
+      "demo": "https://github.com/saichandana-git/youtube-trending-etl-aws",
+      "links": {
+        "github": "https://github.com/saichandana-git/youtube-trending-etl-aws",
+        "demo": "https://github.com/saichandana-git/youtube-trending-etl-aws",
+        "live": "https://github.com/saichandana-git/youtube-trending-etl-aws"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "extracting-structured-data-from-pdfs",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/extracting-structured-data-from-pdfs",
+      "demo": "https://github.com/saichandana-git/extracting-structured-data-from-pdfs",
+      "links": {
+        "github": "https://github.com/saichandana-git/extracting-structured-data-from-pdfs",
+        "demo": "https://github.com/saichandana-git/extracting-structured-data-from-pdfs",
+        "live": "https://github.com/saichandana-git/extracting-structured-data-from-pdfs"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "data-pipeline-with-dbt-using-airflow-on-gcp",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
+      "demo": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
+      "links": {
+        "github": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
+        "demo": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
+        "live": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "longDescription": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/saichandana-git/contribution-history",
+      "demo": "https://github.com/saichandana-git/contribution-history",
+      "links": {
+        "github": "https://github.com/saichandana-git/contribution-history",
+        "demo": "https://github.com/saichandana-git/contribution-history",
+        "live": "https://github.com/saichandana-git/contribution-history"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    }
+  ]
+}

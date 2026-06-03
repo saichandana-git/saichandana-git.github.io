@@ -1,0 +1,25 @@
+{
+  "_instructions": "About section content - tell your professional story and showcase key metrics.",
+  "sectionTitle": "About Me",
+  "content": [
+    "Data Engineer with 5+ years of experience building cloud-based data platforms, distributed ETL pipelines, and AI-enabled analytics solutions across e-commerce, pricing analytics, supply chain, and reporting environments. Skilled in Python, SQL, PySpark, Databricks, AWS, Airflow, Snowflake, Kafka, and Delta Lake for developing scalab",
+    "le batch and near real-time processing systems supporting machine learning, forecasting, and operational analytics. Experienced in Lakehouse architecture, workflow orchestration, cloud migration, CI/CD automation, and distributed data processing with strong focus on performance optimization, data reliability, and analytics delivery."
+  ],
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "title": "4+",
+      "description": "Companies"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "title": "0+",
+      "description": "Project"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "46+",
+      "description": "Skills"
+    }
+  ]
+}

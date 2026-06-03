@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Sai Chandana Gamini",
+    "title": "Data Engineer",
+    "bio": "Data Engineer with 5+ years of experience building cloud-based data platforms, distributed ETL pipelines, and AI-enabled analytics solutions across e-commerce, pricing analytics, supply chain, and reporting environments. Skilled in Python, SQL, PySpark, Databricks, AWS, Airflow, Snowflake, Kafka, and Delta Lake for developing scalable batch and near real-time processing systems supporting machine learning, forecasting, and operational analytics. Experienced in Lakehouse architecture, workflow orchestration, cloud migration, CI/CD automation, and distributed data processing with strong focus on performance optimization, data reliability, and analytics delivery."
+  },
+  "contact": {
+    "email": "sgchandana29@gmail.com",
+    "phone": "+1 817 829 8937",
+    "githubUsername": "saichandana-git",
+    "linkedin": ""
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Sai Chandana Gamini - Portfolio",
+    "description": "Data Engineer with 5+ years of experience building cloud-based data platforms, distributed ETL pipelines, and AI-enabled analytics solutions across e-commerce, pricing analytics, supply chain, and reporting environments. Skilled in Python, SQL, PySpark, Databricks, AWS, Airflow, Snowflake, Kafka, and Delta Lake for developing scalable batch and near real-time processing systems supporting machine learning, forecasting, and operational analytics. Experienced in Lakehouse architecture, workflow orchestration, cloud migration, CI/CD automation, and distributed data processing with strong focus on performance optimization, data reliability, and analytics delivery."
+  }
+}
