@@ -7,7 +7,9 @@
     <meta name="author" content="">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -23,7 +25,7 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="nav-brand" id="nav-brand">MJ</a>
-            <button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
             <ul class="nav-menu" id="nav-menu"></ul>
         </div>
     </nav>
@@ -48,6 +50,14 @@
             <h2 class="section-title" id="about-title">About</h2>
             <div class="about-content" id="about-content"></div>
             <div class="about-highlights" id="about-highlights"></div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" id="experience-title">Experience</h2>
+            <div class="experience-timeline" id="experience-timeline"></div>
         </div>
     </section>
 

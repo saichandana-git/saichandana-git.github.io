@@ -30,9 +30,11 @@ async function initializeApp() {
 async function loadSiteConfig() {
     try {
         const data = await fetch('data/site-config.json').then(r => r.json());
-        document.title = data.title;
-        document.querySelector('meta[name="description"]').content = data.description;
-        document.querySelector('meta[name="author"]').content = data.author;
+        // Support both flat and nested ({ meta: {...} }) config shapes
+        const meta = data.meta || data;
+        if (meta.title) document.title = meta.title;
+        if (meta.description) document.querySelector('meta[name="description"]').content = meta.description;
+        if (meta.author) document.querySelector('meta[name="author"]').content = meta.author;
     } catch (error) {
         console.error('Error loading site config:', error);
     }
@@ -97,7 +99,7 @@ async function loadHero() {
             const highlights = data.highlights || data.stats || [];
             statsElement.innerHTML = highlights.map(item => {
                 // Support both formats
-                const number = item.number || item.text || '';
+                const number = item.number || item.value || item.text || '';
                 const label = item.label || '';
                 return `<div class="stat-item"><span class="stat-number">${number}</span><span class="stat-label">${label}</span></div>`;
             }).join('');
@@ -124,8 +126,64 @@ async function loadAbout() {
 async function loadExperience() {
     try {
         const data = await fetch('data/experience.json').then(r => r.json());
-        // Experience section rendering - template may not have this section
-        console.log('Experience data loaded:', data);
+
+        const titleEl = document.getElementById('experience-title');
+        if (titleEl) titleEl.textContent = data.sectionTitle || 'Experience';
+
+        const timeline = document.getElementById('experience-timeline');
+        const experiences = data.experiences || [];
+
+        if (timeline && experiences.length > 0) {
+            timeline.innerHTML = experiences.map(exp => {
+                const company = exp.company || '';
+                const initials = company
+                    .replace(/[^A-Za-z0-9 ]/g, '')
+                    .split(/\s+/)
+                    .filter(Boolean)
+                    .slice(0, 2)
+                    .map(w => w[0])
+                    .join('')
+                    .toUpperCase() || '?';
+
+                // Company logo: pulled live from DuckDuckGo's icon service when a
+                // domain exists, falling back to an initials badge if missing or it
+                // fails to load. (Clearbit's free logo API was sunset post-HubSpot.)
+                const logo = exp.domain
+                    ? `<img class="exp-logo-img" src="https://icons.duckduckgo.com/ip3/${exp.domain}.ico"
+                            alt="${company} logo" loading="lazy"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                       <span class="exp-logo-fallback" style="display:none;">${initials}</span>`
+                    : `<span class="exp-logo-fallback">${initials}</span>`;
+
+                // Prefer the clean newline-separated description for bullet points.
+                const points = (exp.description || '')
+                    .split('\n')
+                    .map(s => s.trim())
+                    .filter(Boolean);
+                const bullets = points.length
+                    ? `<ul class="exp-points">${points.map(p => `<li>${p}</li>`).join('')}</ul>`
+                    : '';
+
+                const location = exp.location
+                    ? `<span class="exp-location"><i class="fas fa-map-marker-alt"></i> ${exp.location}</span>`
+                    : '';
+
+                return `<div class="exp-card">
+                    <div class="exp-logo">${logo}</div>
+                    <div class="exp-body">
+                        <div class="exp-head">
+                            <h3 class="exp-title">${exp.title || ''}</h3>
+                            <span class="exp-company">${company}</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-period"><i class="fas fa-calendar"></i> ${exp.period || ''}</span>
+                            ${location}
+                        </div>
+                        ${bullets}
+                    </div>
+                </div>`;
+            }).join('');
+        }
     } catch (error) {
         console.error('Error loading experience:', error);
     }
@@ -147,8 +205,8 @@ async function loadProjects() {
                 const tags = project.technologies || project.tags || [];
 
                 return `<div class="work-card">
-                    <div class="work-image" style="background-image: url('${project.image}')">
-                        <div class="work-icon"><i class="${project.icon}"></i></div>
+                    <div class="work-image" role="img" aria-label="${project.title}" style="background-image: url('${project.image}')">
+                        <div class="work-icon"><i class="${project.icon}" aria-hidden="true"></i></div>
                     </div>
                     <div class="work-content">
                         <p class="work-category">${project.category}</p>
@@ -173,8 +231,8 @@ async function loadSkills() {
         document.getElementById('skills-grid').innerHTML = data.categories.map(cat =>
             `<div class="skill-category">
                 <div class="skill-category-header">
-                    <i class="${cat.icon}"></i>
-                    <h3 class="skill-category-name">${cat.name}</h3>
+                    <i class="${cat.icon}" aria-hidden="true"></i>
+                    <h3 class="skill-category-name">${cat.name || cat.category || ''}</h3>
                 </div>
                 <div class="skill-list">
                     ${cat.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
@@ -232,9 +290,15 @@ function initializeNavigation() {
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
+        navToggle.addEventListener('click', () => {
+            const open = navMenu.classList.toggle('active');
+            navToggle.setAttribute('aria-expanded', String(open));
+        });
         document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', () => navMenu.classList.remove('active'));
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
         });
     }
 }

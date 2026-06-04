@@ -5,16 +5,15 @@
     {
       "title": "Data Engineer",
       "company": "Meta",
+      "domain": "meta.com",
       "period": "Jun 2025 - Present",
-      "location": "",
+      "location": "USA",
       "description": "Built PySpark and Databricks pipelines processing more than 12 billion monthly records, reducing machine learning feature preparation time by 55% across forecasting and behavioral analytics workloads.\nReduced Spark execution time from 4.5 hours to 2.3 hours through partition optimization, adaptive query tuning, and distributed processing improvements across large-scale cloud analytics environments.\nDeveloped Azure Databricks, Delta Lake, and RAG-enabled ingestion frameworks supporting 40+ source systems, increasing schema validation accuracy by 38% while reducing failed production data loads across centralized Lakehouse and AI powered knowledge retrieval platforms.\nCreated Airflow orchestration pipelines managing more than 600 scheduled workflows daily with automated retries, dependency tracking, and SLA monitoring, increasing pipeline reliability from 91% to 99.4%.\nImplemented near real-time ingestion pipelines using Kafka, APIs, transactional databases, and cloud storage systems processing 18 million daily events for operational analytics and AI-driven reporting platforms.\nPartnered with data scientists and analytics engineers to deliver curated machine learning datasets within Snowflake environments, reducing model training preparation efforts by 48% across forecasting initiatives.\nDeveloped LLM-powered RAG solutions using Azure OpenAI and Vector Databases, improving contextual data retrieval accuracy by 42% and accelerating enterprise analytics insights.",
       "responsibilities": [
         "Built PySpark and Databricks pipelines processing more than 12 billion monthly records, reducing machine learning feature preparation time by 55% across forecasting and behavioral analytics workloads",
-        "Reduced Spark execution time from 4",
-        "5 hours to 2",
-        "3 hours through partition optimization, adaptive query tuning, and distributed processing improvements across large-scale cloud analytics environments",
-        "Developed Azure Databricks, Delta Lake, and RAG-enabled ingestion frameworks supporting 40+ source systems, increasing schema validation accuracy by 38% while reducing failed production data loads across centralized Lakehouse and AI powered knowledge retrieval platforms",
-        "Created Airflow orchestration pipelines managing more than 600 scheduled workflows daily with automated retries, dependency tracking, and SLA monitoring, increasing pipeline reliability from 91% to 99",
+        "Reduced Spark execution time from 4.5 hours to 2.3 hours through partition optimization, adaptive query tuning, and distributed processing improvements across large-scale cloud analytics environments",
+        "Developed Azure Databricks, Delta Lake, and RAG-enabled ingestion frameworks supporting 40+ source systems, increasing schema validation accuracy by 38% while reducing failed production data loads across centralized Lakehouse and AI-powered knowledge retrieval platforms",
+        "Created Airflow orchestration pipelines managing more than 600 scheduled workflows daily with automated retries, dependency tracking, and SLA monitoring, increasing pipeline reliability from 91% to 99.4%",
         "Implemented near real-time ingestion pipelines using Kafka, APIs, transactional databases, and cloud storage systems processing 18 million daily events for operational analytics and AI-driven reporting platforms",
         "Partnered with data scientists and analytics engineers to deliver curated machine learning datasets within Snowflake environments, reducing model training preparation efforts by 48% across forecasting initiatives",
         "Developed LLM-powered RAG solutions using Azure OpenAI and Vector Databases, improving contextual data retrieval accuracy by 42% and accelerating enterprise analytics insights"
@@ -23,8 +22,9 @@
     {
       "title": "Sr. Data Engineer",
       "company": "QLX Consulting Company",
+      "domain": "",
       "period": "Oct 2024 - May 2025",
-      "location": "",
+      "location": "USA",
       "description": "Designed cloud-native ETL pipelines processing 9TB daily pricing and operational datasets supporting forecasting applications, executive reporting, and AI-driven analytics across global business operations.\nImproved AWS Glue and Athena processing efficiency by 60% through query optimization, workload restructuring, and partition management, reducing analytics execution delays and cloud compute expenses.\nImplemented Apache Hudi Data Lake architecture supporting incremental ingestion and historical versioning, decreasing reporting latency by 41% while improving downstream analytics accessibility across reporting environments.\nDeveloped Airflow DAG frameworks orchestrating more than 450 production workflows daily with dependency management, automated recovery processes, and SLA tracking, reducing scheduling failures by 52%.\nEngineered AI-ready transformation layers and Vector Database integration supporting machine learning workflows, forecasting applications, and feature engineering pipelines, reducing analytics preparation efforts by 36% across predictive analytics environments.\nAutomated AWS infrastructure provisioning using Terraform and Infrastructure as Code methodologies, reducing manual deployment efforts by 80% while improving environment consistency and operational scalability.\nDeveloped LLM-powered analytics solutions using Amazon Bedrock, RAG frameworks, and Vector Databases, improving contextual data retrieval accuracy by 40% and accelerating business intelligence insights across enterprise reporting platforms.",
       "responsibilities": [
         "Designed cloud-native ETL pipelines processing 9TB daily pricing and operational datasets supporting forecasting applications, executive reporting, and AI-driven analytics across global business operations",
@@ -39,8 +39,9 @@
     {
       "title": "Associate Data Engineer",
       "company": "Amazon",
+      "domain": "amazon.com",
       "period": "Jan 2023 - Sep 2024",
-      "location": "",
+      "location": "USA",
       "description": "Developed distributed PySpark pipelines processing more than 7TB daily operational datasets supporting inventory forecasting, fulfillment analytics, operational reporting, and supply chain intelligence initiatives.\nReduced ETL execution time by 43% through SQL optimization, partition strategy improvements, and Spark transformation enhancements across production analytics workflows supporting operational reporting systems.\nBuilt automated ingestion frameworks integrating APIs, relational databases, flat files, and cloud storage systems, reducing manual onboarding efforts by 58% across centralized analytics environments.\nCreated Airflow orchestration pipelines supporting more than 300 scheduled workflows daily with dependency management, automated retries, and SLA tracking, increasing workflow completion rates across distributed analytics systems.\nDelivered curated analytical datasets supporting inventory optimization, fulfillment intelligence, operational forecasting, and predictive reporting initiatives, increasing reporting accuracy across supply chain analytics environments.\nMigrated legacy ETL workflows into scalable AWS-native distributed architectures, reducing infrastructure maintenance overhead by 34% while improving processing reliability across cloud analytics platforms.\nImplemented data quality validation and reconciliation frameworks across multi-source pipelines, reducing data inconsistencies by 37% and improving trustworthiness of operational and supply chain reporting datasets.",
       "responsibilities": [
         "Developed distributed PySpark pipelines processing more than 7TB daily operational datasets supporting inventory forecasting, fulfillment analytics, operational reporting, and supply chain intelligence initiatives",
@@ -55,8 +56,9 @@
     {
       "title": "Data Engineer",
       "company": "Mphasis",
+      "domain": "mphasis.com",
       "period": "Mar 2020 - Dec 2021",
-      "location": "",
+      "location": "India",
       "description": "Developed ETL pipelines using Python, SQL, and Spark processing high-volume operational datasets supporting customer reporting, business intelligence dashboards, and analytics initiatives across distributed reporting environments.\nReduced reporting delays by 37% through SQL query optimization, indexing improvements, and workflow tuning across operational reporting and analytical processing systems supporting multiple business functions.\nIntegrated structured and semi-structured datasets from APIs, enterprise applications, and transactional systems, reducing manual reporting dependencies while improving centralized analytics accessibility across operational teams.\nBuilt reusable transformation workflows and automated validation frameworks, increasing reporting accuracy by 33% while reducing data inconsistencies across analytics and business intelligence processing environments.\nSupported migration initiatives transitioning legacy ETL processes into cloud-based distributed architectures, improving scalability, operational stability, and analytics performance across modernized reporting systems.\nDeveloped data quality monitoring and reconciliation processes across enterprise reporting pipelines, reducing data discrepancies by 35% and improving consistency of business intelligence and operational reporting outputs.",
       "responsibilities": [
         "Developed ETL pipelines using Python, SQL, and Spark processing high-volume operational datasets supporting customer reporting, business intelligence dashboards, and analytics initiatives across distributed reporting environments",

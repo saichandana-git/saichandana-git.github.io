@@ -4,7 +4,7 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Programming Languages",
+      "name": "Programming & Scripting",
       "icon": "fas fa-code",
       "skills": [
         "Python",
@@ -17,24 +17,39 @@
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "name": "Big Data & Processing",
+      "icon": "fas fa-bolt",
       "skills": [
         "Apache Spark",
-        "Apache Airflow",
-        "LangChain",
-        "LlamaIndex"
-      ]
-    },
-    {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
-      "skills": [
         "Databricks",
+        "Apache Airflow",
         "Kafka",
         "Delta Lake",
         "Apache Hudi",
-        "AWS",
+        "Batch Processing",
+        "Near Real-Time Processing",
+        "Distributed Data Processing"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "icon": "fas fa-diagram-project",
+      "skills": [
+        "ETL",
+        "ELT",
+        "Data Lake",
+        "Lakehouse Architecture",
+        "Data Modeling",
+        "Workflow Orchestration",
+        "Data Transformation",
+        "Data Integration",
+        "Feature Engineering Pipelines"
+      ]
+    },
+    {
+      "name": "AWS",
+      "icon": "fab fa-aws",
+      "skills": [
         "S3",
         "Glue",
         "Athena",
@@ -44,59 +59,79 @@
         "Redshift",
         "CloudWatch",
         "IAM",
-        "Step Functions",
-        "Azure",
+        "Step Functions"
+      ]
+    },
+    {
+      "name": "Azure",
+      "icon": "fab fa-microsoft",
+      "skills": [
         "Azure Data Factory",
+        "Databricks",
         "Synapse Analytics",
         "ADLS Gen2",
         "Azure Functions",
         "Azure SQL Database",
         "Microsoft Fabric",
-        "Azure DevOps",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Databases & Storage",
+      "icon": "fas fa-database",
+      "skills": [
         "Snowflake",
         "PostgreSQL",
         "MySQL",
         "SQL Server",
-        "Amazon Redshift",
-        "Pinecone",
-        "ChromaDB",
-        "FAISS",
-        "Weaviate",
-        "Amazon Bedrock",
-        "Azure OpenAI",
-        "Terraform",
-        "Docker",
-        "Jenkins",
-        "GitHub Actions",
-        "Git"
+        "Amazon Redshift"
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "name": "Vector Databases",
+      "icon": "fas fa-magnifying-glass-chart",
       "skills": [
-        "ETL",
-        "ELT",
-        "Data Lake",
-        "Lakehouse Architecture",
-        "Distributed Data Processing",
-        "Batch Processing",
-        "Near Real-Time Processing",
-        "Data Modeling",
-        "Workflow Orchestration",
-        "Data Transformation",
-        "Data Integration",
-        "Feature Engineering Pipelines",
+        "Pinecone",
+        "ChromaDB",
+        "FAISS",
+        "Weaviate"
+      ]
+    },
+    {
+      "name": "GenAI, LLM & RAG",
+      "icon": "fas fa-robot",
+      "skills": [
         "Retrieval-Augmented Generation (RAG)",
         "Large Language Models (LLMs)",
         "Prompt Engineering",
         "Semantic Search",
         "Embeddings",
         "Vector Search",
-        "AI Knowledge Retrieval",
         "LLM Data Pipelines",
-        "Context Augmentation",
-        "Document Processing",
+        "LangChain",
+        "LlamaIndex",
+        "Amazon Bedrock",
+        "Azure OpenAI"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "icon": "fas fa-gears",
+      "skills": [
+        "Terraform",
+        "Docker",
+        "CI/CD Pipelines",
+        "Jenkins",
+        "GitHub Actions",
+        "Git",
+        "Infrastructure as Code (IaC)",
+        "Deployment Automation"
+      ]
+    },
+    {
+      "name": "Analytics & AI Enablement",
+      "icon": "fas fa-chart-line",
+      "skills": [
         "Machine Learning Data Pipelines",
         "Forecasting Analytics",
         "Predictive Analytics",
@@ -105,7 +140,13 @@
         "AI-Driven Reporting",
         "Business Intelligence",
         "Data Validation",
-        "Data Quality Frameworks",
+        "Data Quality Frameworks"
+      ]
+    },
+    {
+      "name": "Monitoring & Governance",
+      "icon": "fas fa-shield-halved",
+      "skills": [
         "Data Governance",
         "RBAC",
         "Audit Logging",
@@ -113,7 +154,13 @@
         "Monitoring & Alerting",
         "Workflow Reliability",
         "Production Support",
-        "SLA Management",
+        "SLA Management"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "icon": "fas fa-people-group",
+      "skills": [
         "Agile",
         "Scrum",
         "SDLC",

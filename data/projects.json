@@ -1,18 +1,20 @@
 {
   "_instructions": "Add your professional projects.",
   "sectionTitle": "Portfolio",
-  "subtitle": "Featured professional projects",
+  "subtitle": "Featured data engineering projects",
   "projects": [
     {
-      "title": "etl-validation-with-python-scripting",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Backend Development",
+      "title": "ETL Validation Framework",
+      "description": "A Python-based test harness that validates ETL outputs row-by-row against source systems, catching schema drift and load failures before they reach production.",
+      "longDescription": "Reusable data-quality framework that automates reconciliation between source and target tables, asserts schema contracts, and flags null/duplicate anomalies. Designed to plug into CI so broken pipelines fail fast.",
+      "category": "Data Engineering",
       "technologies": [
-        "Python"
+        "Python",
+        "SQL",
+        "pytest"
       ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "icon": "fas fa-vial-circle-check",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&q=80&fit=crop",
       "featured": true,
       "status": "Completed",
       "role": "Lead Developer",
@@ -32,16 +34,16 @@
       }
     },
     {
-      "title": "greenpulse-energy-monitoring",
-      "description": "Modern web application demonstrating clean code principles",
-      "longDescription": "Modern web application demonstrating clean code principles",
-      "category": "Backend Development",
+      "title": "GreenPulse Energy Monitoring",
+      "description": "An energy-monitoring app that ingests meter readings, tracks consumption trends, and surfaces usage anomalies through a clean TypeScript dashboard.",
+      "longDescription": "Full-stack monitoring tool pairing a Python ingestion/analytics backend with a TypeScript frontend to visualize real-time and historical energy usage, flag spikes, and report on efficiency.",
+      "category": "Full-Stack / Analytics",
       "technologies": [
         "Python",
         "TypeScript"
       ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "icon": "fas fa-bolt",
+      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -61,17 +63,18 @@
       }
     },
     {
-      "title": "youtube-trending-etl-aws",
-      "description": "Learning project built with modern web technologies",
-      "longDescription": "Learning project built with modern web technologies",
-      "category": "Backend Development",
+      "title": "YouTube Trending ETL on AWS",
+      "description": "A cloud-native pipeline that lands YouTube trending data into S3, transforms it with Glue, and exposes it for analytics in Athena — all provisioned via Terraform.",
+      "longDescription": "End-to-end AWS data pipeline: ingestion to S3, cataloging and transformation with Glue, and SQL analytics over Athena. Infrastructure is fully codified in Terraform (HCL) for reproducible deploys.",
+      "category": "Cloud Data Engineering",
       "technologies": [
         "Python",
-        "HCL"
+        "AWS",
+        "Terraform"
       ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
-      "featured": false,
+      "icon": "fas fa-chart-line",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
+      "featured": true,
       "status": "Completed",
       "role": "Lead Developer",
       "duration": "",
@@ -90,17 +93,17 @@
       }
     },
     {
-      "title": "extracting-structured-data-from-pdfs",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Backend Development",
+      "title": "Structured Data Extraction from PDFs",
+      "description": "A document-parsing pipeline that pulls tables and key fields out of unstructured PDFs into clean, query-ready datasets, packaged in Docker for portable runs.",
+      "longDescription": "Extraction workflow that turns messy PDF documents into structured records — parsing tables and fields, normalizing output, and shipping as a containerized, reproducible job. Prototyped in Jupyter.",
+      "category": "Data Engineering",
       "technologies": [
         "Python",
-        "Jupyter Notebook",
-        "Dockerfile"
+        "Jupyter",
+        "Docker"
       ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "icon": "fas fa-file-lines",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -120,16 +123,19 @@
       }
     },
     {
-      "title": "data-pipeline-with-dbt-using-airflow-on-gcp",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
-      "category": "Backend Development",
+      "title": "dbt + Airflow Pipeline on GCP",
+      "description": "An orchestrated analytics pipeline that schedules dbt transformations with Airflow on GCP, turning raw warehouse tables into tested, documented models.",
+      "longDescription": "Modern ELT stack: Airflow orchestrates scheduled dbt runs on BigQuery, applying tested and documented transformations with dependency-aware DAGs. Containerized with Docker for consistent environments.",
+      "category": "Cloud Data Engineering",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "dbt",
+        "Airflow",
+        "GCP",
+        "Docker"
       ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "icon": "fas fa-diagram-project",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -141,32 +147,6 @@
         "github": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
         "demo": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp",
         "live": "https://github.com/saichandana-git/data-pipeline-with-dbt-using-airflow-on-gcp"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
-      }
-    },
-    {
-      "title": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "longDescription": "Generated GitHub contribution history",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "status": "Completed",
-      "role": "Lead Developer",
-      "duration": "",
-      "client": "",
-      "github": "https://github.com/saichandana-git/contribution-history",
-      "demo": "https://github.com/saichandana-git/contribution-history",
-      "links": {
-        "github": "https://github.com/saichandana-git/contribution-history",
-        "demo": "https://github.com/saichandana-git/contribution-history",
-        "live": "https://github.com/saichandana-git/contribution-history"
       },
       "metrics": {
         "users": "",
